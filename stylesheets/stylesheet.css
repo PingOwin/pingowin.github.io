@@ -110,7 +110,6 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 180px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
@@ -155,6 +154,7 @@ a.button span {
   display: block;
   height: 23px;
   padding-left: 50px;
+  margin-right:25px;
 }
 
 #download-zip span {
@@ -171,14 +171,24 @@ a.button span {
   
 }
 
+#view-on-nuget span img {
+  vertical-align:middle;
+}
+
 #view-on-nuget span {
-  background: transparent url(https://img.shields.io/nuget/v/PingOwin.svg?maxAge=2592000) 12px 50% no-repeat;
-  text-align:right; 
-  margin-right:20px
+  background: transparent url(../images/nuget-icon.png) 12px 50% no-repeat;
 }
 #view-on-nuget {
   margin-right: 0;
-  float:right;
+}
+
+#status{
+ 
+}
+
+#status img {
+  display:block;
+   float:right;
 }
 
 code, pre {
@@ -380,10 +390,17 @@ footer a:hover {
     width: 94%;
     margin: 0 auto;
   }
+  
+    a.button {
+    width:94%;
+    margin-top:2px;     
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
