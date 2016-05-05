@@ -110,7 +110,7 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 179px;
+  width: 180px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 15px;
@@ -168,6 +168,17 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+  
+}
+
+#view-on-nuget span {
+  background: transparent url(https://img.shields.io/nuget/v/PingOwin.svg?maxAge=2592000) 12px 50% no-repeat;
+  text-align:right; 
+  margin-right:20px
+}
+#view-on-nuget {
+  margin-right: 0;
+  float:right;
 }
 
 code, pre {
